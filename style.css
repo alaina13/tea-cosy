@@ -47,11 +47,14 @@ nav a {
   align-content: center;
   justify-content: space-around;
 }
-.items {
-  display: flex;
+.item {
+  margin: 5px;
 }
-#products img {
+.item img {
   width: 300px;
   height: 200px;
-  /*padding: 10px;*/
+  padding: 5px;
+}
+.item span {
+  display: block;
 }
