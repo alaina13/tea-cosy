@@ -5,6 +5,10 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+.flex-container {
+  display: flex;
+  align-items: center;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -30,17 +34,14 @@ nav a {
 }
 
 .container {
-  display: flex;
+/*  display: flex;*/
 }
-.hero {
+#hero {
   background-image: url("resources/img-mission-background.jpg");
   height: 700px;
-  display: flex;
-  margin: auto;
 }
-.mission {
+#mission {
   background-color: black;
   text-align: center;
-  display: flex;
-  align-self: center;
+  width: 100%;
 }
