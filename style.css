@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-left: 0px;
 }
 .flex-container {
   display: flex;
@@ -16,6 +17,11 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  margin: 0px auto;
+  background-color: black;
+  width: 100%;
+  top: 0px;
 }
 .logo img {
   padding: 10px;
@@ -24,6 +30,11 @@ header {
 nav a {
   padding-right: 10px;
   color: seashell;
+}
+
+/* container */
+container {
+  margin: 70px auto;
 }
 
 /* Hero and Mission */
