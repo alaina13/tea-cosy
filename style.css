@@ -17,18 +17,16 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid seashell;
 }
-
 .logo img {
   padding: 10px;
   max-height: 50px;
 }
-
 nav a {
   padding-right: 10px;
   color: seashell;
 }
 
-/*Hero and Mission*/
+/* Hero and Mission */
 #hero {
   background-image: url("resources/img-mission-background.jpg");
   height: 700px;
@@ -39,9 +37,10 @@ nav a {
   width: 100%;
 }
 
-#main {
+/* Products */
+/*#main {
   width: 1000px;
-}
+}*/
 #products {
   display: flex;
   align-content: center;
@@ -57,4 +56,25 @@ nav a {
 }
 .item span {
   display: block;
+}
+/*Locations*/
+#locations {
+  background-image: url("resources/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  padding: 50px;
+  margin-top: 20px;
+}
+#location-box {
+  display: flex;
+  align-content: center;
+}
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+
+}
+.location p {
+  opacity: 1;
 }
